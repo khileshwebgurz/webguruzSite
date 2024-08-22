@@ -1,0 +1,102 @@
+
+/* blog page css */
+.blog-card-sub {
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 42px;
+    transition: 0.3s ease-in-out 0s;
+    background-color: #fff;
+    border: 1px solid #f3f3f3;
+}
+.blog-card-sub .image {
+    overflow: hidden;
+    border-radius: 12px;
+}
+.blog-card-sub img {
+    border-radius: 12px;
+    border: 2px solid #000;
+    overflow: hidden;
+    transition: 0.3s ease-in-out 0s;
+}
+.blog-card-sub:hover img{
+transform: scale(1.04);
+}
+.blog-card-sub .content {
+    padding-top: 15px;
+}
+.blog-main form {
+    margin-bottom: 40px;
+}
+.blog-main form input {
+    width: 100%;
+    border: 0px;
+    text-transform: capitalize;
+    font-size: 16px;
+    height: 55px;
+    padding: 12px 0;
+    border-radius: 0px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.blog-edit-right .blog-edit-right-sub:last-child {
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
+.blog-main form {
+    position: relative;
+}
+.blog-main form select {
+    position: absolute;
+    right: 0;
+    padding: 16px 12px 16px 14px;
+    border: 0px;
+    color: #383838;
+    border-left: 1px solid #d3d3d3;
+    border-radius: 0px 50px 50px 0px;
+    background-color: transparent;
+}
+.blog-editor {
+    padding-top: 150px;
+}
+.blog-card-sub-main {
+    padding: 50px 0px;
+}
+.pagination-main ul li a:hover {
+    background-color: #168B9A;
+    color: #fff;
+}
+.pagination-main ul li a {
+    margin: 0px 1px;
+    padding: 7px 15px;
+    width: auto;
+    transition: 0.3s ease-in-out 0s;
+}
+.pagination-main ul li.nocolor a {
+    background-color: transparent;
+    color: #168b9a;
+}
+.pagination-main ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featured-tp-main span {
+    color: #383838;
+}
+.blog-edit-left img {
+    width: 100%;
+    height: 280px;
+    margin: 0px 0px 12px 0px;
+    object-fit: cover;
+    object-position: top center;
+}
+.blog-edit-left {
+    padding: 14px;
+}
+.blog-edit-right .blog-edit-right-sub {
+    padding: 0px 0px 20px;
+    margin-top: 22px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.featured-tp-main p {
+    color: #168B9A;
+}
