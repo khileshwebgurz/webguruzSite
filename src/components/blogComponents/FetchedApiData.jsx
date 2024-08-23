@@ -32,9 +32,9 @@ const FetchedApiData = async () => {
             </form>
           </div>
         </div> */}
-        <SearchablePost/>
+        <SearchablePost posts={posts}/>
 
-        <div className="row">
+        {/* <div className="row">
           {posts.map((post, index) => (
             <div key={index} className="col-sm-4 col-xs-12">
               <div className="blog-card-sub">
@@ -53,7 +53,7 @@ const FetchedApiData = async () => {
                     {post.date || "Unknown Date"}{" "}
                     {post.readTime || "0 min read"}
                   </span> */}
-                  <h5 className="pb-4">{post.title.rendered}</h5>
+                  {/* <h5 className="pb-4">{post.title.rendered}</h5>
                   <p
                     dangerouslySetInnerHTML={{
                       __html: post.excerpt.rendered
@@ -83,7 +83,7 @@ const FetchedApiData = async () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */} 
 
         <div className="row">
           <div className="col-sm-12 col-xs-12 pagination-main">

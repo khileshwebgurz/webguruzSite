@@ -31,7 +31,7 @@ const page = async ({ params }) => {
   const selectedCategory = params;
 
   const posts = await getPost(selectedCategory);
-  
+
   if (!posts) {
     notFound();
   }
